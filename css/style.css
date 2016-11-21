@@ -1,0 +1,171 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+html {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  letter-spacing: -1px;
+}
+
+nav, nav ul li {
+  height: 100px;
+}
+
+nav ul li {
+  line-height: 100px;
+}
+
+nav ul a,
+nav .brand-logo {
+  color: #444;
+}
+
+nav .nav-wrapper ul li a i {
+  float: left;
+  line-height: 100px;
+  margin-right: 10px;
+}
+
+p {
+  line-height: 2rem;
+}
+
+.button-collapse {
+  color: #26a69a;
+}
+
+
+
+
+
+/*
+ * Index Hero
+*/
+.parallax-container.index-hero {
+  height: 500px;
+  padding: 9rem 0;
+}
+
+
+/*
+ * overlays
+*/
+.section {
+  position: relative;
+  z-index: 5;
+}
+.overlay {
+  bottom: 0;
+  height: 100%;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+.overlay--light {
+  background-color: rgba(144,194,231,0.8);
+}
+.overlay--light-yellow {
+  background-color: rgba(245,255,144,0.65);
+}
+.overlay--dark {
+  background-color: rgba(9,35,39,0.8);
+}
+.overlay--dark {
+  background-color: rgba(11,83,81,0.75);
+}
+.panda-descending {
+  background-image: url('../panda.svg');
+  background-position: 150% 50%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+
+
+
+
+
+
+
+
+
+.color-section--light-gray {
+  background-color: rgba(200,200,200,0.4);
+}
+.testimonial {
+  min-height: 400px;
+}
+
+
+
+.amp {
+  color: rgba(255,255,255,0.65);
+  display: block;
+  font-family: 'Georgia', serif;
+  font-size: 10rem;
+  font-style: italic;
+  position: relative;
+  margin-bottom: -3rem;
+  z-index: 1;
+}
+h4 {
+  position: relative;
+  z-index: 5;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+
+
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+  padding: 5rem 0;
+}
+  .parallax-container .section {
+    width: 100%;
+  }
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+}
