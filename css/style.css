@@ -53,8 +53,8 @@ p {
  * Index Hero
 */
 .parallax-container.index-hero {
-  height: 500px;
-  padding: 9rem 0;
+  height: 80vh;
+  line-height: 8vh;
 }
 
 
@@ -94,6 +94,11 @@ p {
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
+
+
+
+
+
 .laptop {
   background-image: url('../img/laptop-profile.png');
   background-position: 120% 50px;
@@ -114,6 +119,7 @@ p {
     background-position: 120% 50%;
     background-repeat: no-repeat;
     background-size: 60%;
+    min-height: 80vh;
   }
 }
 
@@ -124,6 +130,11 @@ p {
     background-size: 100%;
   }
 }
+
+
+
+
+
 
 .features-list li {
   margin-bottom: 4rem;
@@ -213,3 +224,15 @@ h4 {
 footer.page-footer {
   margin: 0;
 }
+
+
+
+
+
+
+
+
+iframe {
+  width: 100%;
+}
+
