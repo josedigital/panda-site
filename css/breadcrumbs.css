@@ -1,0 +1,9 @@
+.row .breadcrumbs {
+	padding: 2rem 0;
+}
+.breadcrumb {
+  color: #666;
+}
+.breadcrumb:before {
+	color: #666;
+}
