@@ -53,8 +53,20 @@ p {
  * Index Hero
 */
 .parallax-container.index-hero {
-  height: 80vh;
+  height: 100vh;
   line-height: 8vh;
+}
+@media only screen and (min-width : 800px) {
+  .parallax-container.index-hero {
+    height: 80vh;
+  }
+}
+
+.index-hero h1 {
+  animation-delay: .5s;
+}
+.index-hero h5 {
+  animation-delay: 1s;
 }
 
 
