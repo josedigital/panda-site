@@ -64,6 +64,12 @@ p {
 
 .index-hero h1 {
   animation-delay: .5s;
+  font-size: 2rem;
+}
+@media only screen and (min-width : 600px) {
+ .index-hero h1 {
+    font-size: 4.2rem;
+  }
 }
 .index-hero h5 {
   animation-delay: 1s;
