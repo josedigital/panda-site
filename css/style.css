@@ -94,9 +94,33 @@ p {
 }
 .laptop {
   background-image: url('../img/laptop-profile.png');
-  background-position: 120% 100px;
+  background-position: 120% 50px;
   background-repeat: no-repeat;
   background-size: 60%;
+}
+
+@media only screen and (min-width : 1200px) {
+  .laptop {
+    background-position: 120% 50%;
+    background-repeat: no-repeat;
+    background-size: 60%;
+  }
+}
+
+@media only screen and (min-width : 800px) {
+  .laptop {
+    background-position: 120% 50%;
+    background-repeat: no-repeat;
+    background-size: 60%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  .laptop {
+    background-position: center 90%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }
 }
 
 .features-list li {
