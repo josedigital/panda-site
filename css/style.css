@@ -93,14 +93,27 @@ p {
   background-attachment: fixed;
 }
 .laptop {
-  background-image: url('../img/laptop.png');
+  background-image: url('../img/laptop-profile.png');
   background-position: 120% 100px;
   background-repeat: no-repeat;
   background-size: 60%;
 }
 
-
-
+.features-list li {
+  margin-bottom: 4rem;
+  width: 80%;
+}
+.features-list li i {
+  float: left;
+  margin-right: 10px;
+}
+.features-list li span {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+}
+.features-list li p {
+  margin-left: 30px;
+}
 
 
 
