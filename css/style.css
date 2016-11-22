@@ -18,12 +18,16 @@ h1,h2,h3,h4,h5,h6 {
   letter-spacing: -1px;
 }
 
-nav, nav ul li {
-  height: 100px;
-}
 
-nav ul li {
-  line-height: 100px;
+
+@media only screen and (min-width : 960px) {
+  nav, nav ul li {
+    height: 100px;
+  }
+
+  nav ul li {
+    line-height: 100px;
+  }
 }
 
 nav ul a,
