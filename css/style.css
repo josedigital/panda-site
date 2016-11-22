@@ -92,7 +92,12 @@ p {
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
-
+.laptop {
+  background-image: url('../img/laptop.png');
+  background-position: 120% 100px;
+  background-repeat: no-repeat;
+  background-size: 60%;
+}
 
 
 
