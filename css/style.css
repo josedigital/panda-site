@@ -18,6 +18,24 @@ h1,h2,h3,h4,h5,h6 {
   letter-spacing: -1px;
 }
 
+.not-found {
+  background-image: url('http://media3.giphy.com/media/Hs6f36KUBjWww/giphy.gif');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.not-found h2 {
+  font-size: 5rem;
+}
+.full-screen {
+  width: 100%;
+  height:100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
 
 
 @media only screen and (min-width : 960px) {
